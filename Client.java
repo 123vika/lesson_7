@@ -26,6 +26,7 @@ public class Client {
         try {
             clientSocket = new Socket("localhost", 80);
         } catch (IOException e) {
+        
             e.printStackTrace();
         }
         try {
